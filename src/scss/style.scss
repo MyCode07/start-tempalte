@@ -1,0 +1,29 @@
+// null default styles
+@import "null";
+
+// load fonts
+// @import "fonts";
+
+//load variables
+@import "common/variables";
+
+// load mixins
+@import "mixins";
+
+// load swiper
+// @import "../../node_modules/swiper/swiper";
+
+// load common
+@import "common/common";
+
+// load header
+@import "common/header";
+
+// load footer
+@import "common/footer";
+
+// load footer
+@import "common/menu";
+
+// load error 404
+@import "common/404";
