@@ -22,8 +22,6 @@ if (menuLinks.length) {
 }
 
 
-
-
 const arrow = `<button><svg  viewBox="0 0 11 6" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path  d="M9.37427 1L5.18713 5.18713L1 1" stroke-linecap="square"/>
 </svg></button>
@@ -71,3 +69,18 @@ if (submenuList.length) {
     }
 
 }
+
+
+document.addEventListener('click', function (e) {
+    let targetEl = e.target;
+
+    if (targetEl.classList.contains('_side-fixed')) {
+        targetEl.classList.remove('_active');
+        document.body.classList.remove('_noscroll');
+    }
+
+    if (targetEl.classList.contains('_side-fixed__close')) {
+        targetEl.closest('._side-fixed').classList.remove('_active');
+        document.body.classList.remove('_noscroll');
+    }
+})
