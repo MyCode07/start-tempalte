@@ -5,7 +5,10 @@ html {
 body {
     scroll-behavior: smooth;
     line-height: 1.2;
-    color: $black;
+    font-style: normal;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;   
 
     &._noscroll {
         overflow: hidden;
@@ -45,26 +48,13 @@ main {
 section {
 }
 
-h1,
-h2 {
-}
-
 h1 {
 }
 
 h2 {
 }
 
-a {
-    color: inherit;
-}
-
-.slider-buttons {
-    button {
-        img,
-        svg {
-        }
-    }
+h3 {
 }
 
 figure,

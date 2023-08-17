@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     border: 0;
+    color: inherit;
+    font-size: inherit;
 }
 
 *,
@@ -57,14 +59,12 @@ button {
     cursor: pointer;
 }
 
-
 button::-moz-focus-inner {
     padding: 0;
     border: 0;
 }
 
 a {
-    display: block;
 }
 
 a,
@@ -85,16 +85,5 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: inherit;
     font-weight: 400;
-}
-
-table,
-thead,
-tbody,
-tr,
-th,
-td {
-    display: block;
-    border-collapse: unset;
 }

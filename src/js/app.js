@@ -1,14 +1,13 @@
-// import './utils/smoothscrol.js';
-// import './utils/menu.js';
-// import './utils/animations.js';
+import "./static/side-fixed.js";
+import { accorden } from "./static/accordeon.js";
+import { maskInputs } from "./static/inputmask.js";
+import { runTicker } from "./static/ticker.js";
+import { replaceDomElements } from "./static/replace.js";
+import { toTop } from "./static/to-top.js";
 
-// import './utils/mouse.js';
-// import './utils/ticker.js';
-// import './utils/to-top.js';
-// import './utils/popup.js';
-// import './utils/inputmask.js';
-// import './utils/forms.js';
-// import './utils/accordeon.js';
-// import './utils/replace.js';
-// import './utils/sliders.js';
-// import './utils/lazyImages.js';
+
+toTop();
+replaceDomElements();
+runTicker()
+accorden();
+maskInputs('+7 999 999 999 999', '.phone') 

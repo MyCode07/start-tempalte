@@ -11,6 +11,7 @@
         // .accordion__item-title
 
         &-title {
+            cursor: pointer;
         }
 
         // .accordion__item-content
@@ -20,8 +21,13 @@
             grid-template-rows: 0fr;
             transition: grid-template-rows 0.3s;
 
-            div {
+            // .accordion__item-content-height
+
+            &-height {
                 overflow: hidden;
+
+                div {
+                }
             }
         }
     }
